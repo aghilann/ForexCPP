@@ -19,6 +19,4 @@ class Graph {
     void printGraph() const;
 
     void bellmanFord(const string& sourceName);
-
-    void printPath(const string& sourceName, const string& targetName) const;
 };
