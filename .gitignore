@@ -1,4 +1,4 @@
 .env
 .vscode
 .bin
-.libs
+.libs.env

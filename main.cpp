@@ -27,8 +27,8 @@ std::string makeGetRequest(const std::string& url) {
 
     if (curl) {
         struct curl_slist* headers = NULL;
-        headers = curl_slist_append(headers, "X-RapidAPI-Key: bf5d4f95e7msheb9fa35fb111fb6p1d2751jsnb97cb082174b");
-        headers = curl_slist_append(headers, "X-RapidAPI-Host: exchangerate-api.p.rapidapi.com");
+        headers = curl_slist_append(headers, "");
+        headers = curl_slist_append(headers, "");
 
         curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "GET");
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
