@@ -16,6 +16,4 @@ In the application, currencies are mapped onto vertices, and the edge weight cor
 
 ## Getting Started
 
-To run this project, you will need a modern C++ compiler that supports C++17. Detailed instructions on how to set up and execute the project will be added here.
-
-This application presents a unique blend of financial understanding and computer science, showing how algorithms can be effectively used to tackle complex real-world problems. Please feel free to explore, provide feedback, and contribute to the project. Enjoy exploring those arbitrage opportunities!
+To run this project, you will need a modern C++ compiler that supports C++17. The makefile is already setup so just run `make` to compile the code. You will need your own API keys though.
