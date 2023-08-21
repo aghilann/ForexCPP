@@ -1,6 +1,6 @@
 # Bellman-Ford Arbitrage Detector
 
-This project is a sophisticated financial tool built to detect arbitrage opportunities using the Bellman-Ford algorithm. The Bellman-Ford algorithm finds the shortest path from a single source vertex to all other vertices in a weighted, directed graph. The unique capability of this algorithm to detect negative-weight cycles is leveraged here to identify potential arbitrage situations in the financial markets, enabling the theoretical possibility of risk-free profit.
+This project is my implementation of a financial tool built to detect arbitrage opportunities using the Bellman-Ford algorithm. The Bellman-Ford algorithm finds the shortest path from a single source vertex to all other vertices in a weighted, directed graph. The unique capability of this algorithm to detect negative-weight cycles is leveraged here to identify potential arbitrage situations in the financial markets, enabling the theoretical possibility of risk-free profit.
 
 In the application, currencies are mapped onto vertices, and the edge weight corresponds to the exchange rate. Because the Bellman-Ford algorithm aims to find the minimum distance, the exchange rate is transformed by taking its logarithm and multiplying it by -1. This effectively transforms the problem into finding the path that maximizes returns.
 
